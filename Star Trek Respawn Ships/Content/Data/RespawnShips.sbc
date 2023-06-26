@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RespawnShips>
+    <Ship>
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>Argo II Type Rover [Star Trek]</SubtypeId>
+      </Id>
+      <DisplayName>Argo II Type Rover</DisplayName>
+      <Icon>Textures\GUI\Icons\RespawnShips\Argo II Type Rover.png</Icon>
+      <CooldownSeconds>0</CooldownSeconds>
+      <Prefab>Argo II Type Rover [Star Trek]</Prefab>
+
+      <PlanetDeployAltitude>8</PlanetDeployAltitude>
+      
+      <InitialLinearVelocity x="0" y="-0" z="0" />
+      <InitialAngularVelocity x="0" y="0" z="0" />
+
+      <PlanetTypes> <!-- automatic locking to planets -->
+        <PlanetType>EarthLike</PlanetType>
+        <PlanetType>Mars</PlanetType>
+        <PlanetType>Alien</PlanetType>
+        <PlanetType>Titan</PlanetType>
+        <PlanetType>Moon</PlanetType>
+        <PlanetType>Europa</PlanetType>
+        <PlanetType>Triton</PlanetType>
+        <PlanetType>Pertam</PlanetType>
+      </PlanetTypes>
+
+      <HelpTextLocalizationId>Starter Rover</HelpTextLocalizationId>
+    </Ship>
+
+    <Ship>
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>Borg Probe Scout [Star Trek]</SubtypeId>
+      </Id>
+      <DisplayName>Borg Probe Scout [Star Trek]</DisplayName>
+      <Icon>Textures\GUI\Icons\RespawnShips\Borg Probe Scout.png</Icon>
+      <CooldownSeconds>0</CooldownSeconds>
+      <Prefab>Borg Probe Scout [Star Trek]</Prefab>
+      
+      <UseForSpace>true</UseForSpace>
+      <HelpTextLocalizationId>Borg Probe</HelpTextLocalizationId>
+    </Ship>
+
+    <Ship>
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>Cardassian Scout Ship [Star Trek]</SubtypeId>
+      </Id>
+      <DisplayName>Cardassian Scout Ship [Star Trek]</DisplayName>
+      <Icon>Textures\GUI\Icons\RespawnShips\Cardassian Scout Ship.png</Icon>
+      <CooldownSeconds>0</CooldownSeconds>
+      <Prefab>Cardassian Scout Ship [Star Trek]</Prefab>
+      
+      <UseForSpace>true</UseForSpace>
+      <HelpTextLocalizationId>Cardassian Scout</HelpTextLocalizationId>
+    </Ship>
+
+    <Ship>
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>ECS Creedence K-Class Freighter</SubtypeId>
+      </Id>
+      <DisplayName>ECS Creedence K-Class Freighter</DisplayName>
+      <Icon>Textures\GUI\Icons\RespawnShips\ECS Creedence K-Class Freighter.png</Icon>
+      <CooldownSeconds>0</CooldownSeconds>
+      <Prefab>ECS Creedence K-class freighter [Star Trek]</Prefab>
+      
+      <UseForSpace>true</UseForSpace>
+      <HelpTextLocalizationId>ECS Creedence</HelpTextLocalizationId>
+    </Ship>
+
+    <Ship>
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>Ferengi Scout Ship [Star Trek]</SubtypeId>
+      </Id>
+      <DisplayName>Ferengi Scout Ship [Star Trek]</DisplayName>
+      <Icon>Textures\GUI\Icons\RespawnShips\Ferengi Scout Ship.png</Icon>
+      <CooldownSeconds>0</CooldownSeconds>
+      <Prefab>Ferengi Scout Ship [Star Trek]</Prefab>
+      
+      <UseForSpace>true</UseForSpace>
+      <HelpTextLocalizationId>Ferengi Scout</HelpTextLocalizationId>
+    </Ship>
+
+    <Ship>
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>Klingon Scout Ship [Star Trek]</SubtypeId>
+      </Id>
+      <DisplayName>Klingon Scout Ship [Star Trek]</DisplayName>
+      <Icon>Textures\GUI\Icons\RespawnShips\Klingon Scout Ship.png</Icon>
+      <CooldownSeconds>0</CooldownSeconds>
+      <Prefab>Klingon Scout Ship [Star Trek]</Prefab>
+      
+      <UseForSpace>true</UseForSpace>
+      <HelpTextLocalizationId>Klingon Scout</HelpTextLocalizationId>
+    </Ship>
+
+    <Ship>
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>Romulan Scout Ship [Star Trek]</SubtypeId>
+      </Id>
+      <DisplayName>Romulan Scout Ship [Star Trek]</DisplayName>
+      <Icon>Textures\GUI\Icons\RespawnShips\Romulan Scout Ship.png</Icon>
+      <CooldownSeconds>0</CooldownSeconds>
+      <Prefab>Romulan Scout Ship [Star Trek]</Prefab>
+      
+      <UseForSpace>true</UseForSpace>
+      <HelpTextLocalizationId>Romulan Scout</HelpTextLocalizationId>
+    </Ship>
+
+    <Ship>
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>SS Conestoga [Star Trek]</SubtypeId>
+      </Id>
+      <DisplayName>SS Conestoga [Star Trek]</DisplayName>
+      <Icon>Textures\GUI\Icons\RespawnShips\SS Conestoga.png</Icon>
+      <CooldownSeconds>0</CooldownSeconds>
+      <Prefab>SS Conestoga [Star Trek]</Prefab>
+      
+      <UseForSpace>true</UseForSpace>
+      <HelpTextLocalizationId>SS Conestoga</HelpTextLocalizationId>
+    </Ship>
+
+<!-- Disabled vanilla respawns -->
+
+    <Ship Enabled="false">
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>RespawnPlanetPod</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_PlanetaryLander</DisplayName>
+      <Icon>Textures\GUI\Icons\RespawnShips\RespawnPlanetPod.png</Icon>
+      <CooldownSeconds>900</CooldownSeconds>
+      <Prefab>RespawnPlanetPod</Prefab>
+      
+      <MinimalAirDensity>0.8</MinimalAirDensity>
+      <PlanetDeployAltitude>2000</PlanetDeployAltitude>
+      <UseForPlanetsWithAtmosphere>true</UseForPlanetsWithAtmosphere>
+
+      <InitialLinearVelocity x="0" y="-95" z="0" />
+      <InitialAngularVelocity x="0" y="0.5" z="0" />
+      <HelpTextLocalizationId>RespawnScreeenHelpTextSpawn</HelpTextLocalizationId>
+    </Ship>
+
+    <Ship Enabled="false">
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>RespawnMoonPod</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_PlanetaryLander</DisplayName>
+      <Icon>Textures\GUI\Icons\RespawnShips\RespawnMoonPod.png</Icon>
+      <CooldownSeconds>900</CooldownSeconds>
+      <Prefab>RespawnMoonPod</Prefab>
+      
+      <PlanetDeployAltitude>8</PlanetDeployAltitude>
+      <UseForPlanetsWithoutAtmosphere>true</UseForPlanetsWithoutAtmosphere>
+      <HelpTextLocalizationId>RespawnScreeenHelpTextSpawn</HelpTextLocalizationId>
+    </Ship>
+
+    <Ship Enabled="false">
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>RespawnSpacePod</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_RespawnPodSpace</DisplayName>
+      <Icon>Textures\GUI\Icons\RespawnShips\RespawnSpacePod.png</Icon>
+      <CooldownSeconds>900</CooldownSeconds>
+      <Prefab>RespawnSpacePod</Prefab>
+      
+      <UseForSpace>true</UseForSpace>
+      <HelpTextLocalizationId>RespawnScreeenHelpTextSpaceSpawn</HelpTextLocalizationId>
+    </Ship>
+
+
+  </RespawnShips>
+</Definitions>
